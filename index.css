@@ -1,0 +1,115 @@
+*{
+    color:rgb(1, 82, 5);
+}
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid{
+    display:flex;
+    flex-direction: row;
+}
+.navbar-brand{
+    padding-left: 100px;
+}
+.navbar-nav{
+    justify-content: space-evenly;
+    padding-right: 100px;
+    
+}
+.content-container{
+    padding-left: 100px;
+}
+.card-container{
+    float:right;
+    margin-right:100px;
+}
+img{
+    width: 250px;
+}
+#image{
+    padding-right: 10px;
+    padding-left:0px
+}
+.info-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button{
+
+    padding-right: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color:rgb(1, 82, 5);
+}
+.button{
+    border-radius: 5px;
+}
+
+
+.main{
+    display: flex;
+}
+.image-container1{
+    margin-right: 20px;
+    width: 300px;
+}
+.image-container2{
+    margin-right: 100px;
+    width:300px;
+}
+.images1{
+    margin-top: 35px;
+    height: 250px;
+}
+.para-container{
+    padding-left: 550px;
+}
+
+
+#discover-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-left:100px;
+    width:4000px;
+}
+.beach3,.beach4{
+    height:445px;
+}
+
+.row{
+    padding-left:300px;
+}
+#discover-cards2{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right:100px;
+    width:4000px;
+}
+#discover-cards3{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right:100px;
+    width:4000px;
+}
+
+#privacy{
+    width:1400px;
+    padding-right: 290px;
+    float:right
+}
+
+.container{
+    padding:40px;
+
+}
+.row {
+    padding-left: 38px;
+    padding-right:0px
+}
